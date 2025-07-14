@@ -35,7 +35,7 @@ A multi-agent workflow that classifies a YouTube video into **'entertainment'** 
 If you're on Mac (default architecture ARM64), avoid conflicts by using buildx:
 
 ```bash
-docker buildx build --platform linux/amd64 -t ad-generator:latest --load .
+docker buildx build --platform linux/amd64 -t ad-generator:latest --load .```
 
 ### **Step 3: Save Docker Image**
 
